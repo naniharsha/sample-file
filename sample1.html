@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>form</title>
+	</head>   
+    <body>
+    	<article>
+    		<header><h1>application for licence</h1></header>
+    		<section>
+    			<!-- page body -->
+    			<form for="newlicenceapplication">
+    				<!-- first name -->
+    				<div>
+    				    <label for="firstname">applicant first name:</label>
+    				    <input type="text" id="firstname" name="firstname" placeholder="enter firstname"/>
+    			    </div><br>
+    			    <!-- last name -->
+    			    <div>
+                        <label for="lastname">applicant last name:</label>
+    				    <input type="text" id="lastname" name="lastname" placeholder="enter lastname"/>
+    			    </div><br>
+    			    <!-- phne no -->
+    			    <div>
+                        <label for="phonenum">applicant phone number:</label>
+    				    <input type="text" id="phonenum" name="phonemum" placeholder="enter phonenum"/>
+    			    </div><br>
+    			    <!-- gender -->
+    			    <div>
+    				  <label for="gender">applicant gender:</label>
+    				    <div id="gender">
+    				  	    <label for="male">male:</label>
+    				        <input type="radio" name="gender" id="male" value="male"/>
+    				  	    <label for="female">female:</label>
+    				  	    <input type="radio" id="female" name="gender" value="female"/>
+    				    </div>
+    				</div><br>
+    				<!-- seniour citizenship -->
+    				<div>
+    				    <label for="seniorciteznship">applicant for seniour citiznship?</label> 
+    				    <input type="checkbox" id="seniorciteznship" name="seniorciteznship">
+    			    </div><br>
+    			    <!-- submit button -->
+    			    <div>
+    				    <button type="submit" id="submit" name="submit">
+    					    <span>submit</span>
+    				    </button>
+    				</div><br>
+    				<!-- reset button -->
+    				<div>
+    				    <button type="reset" id="rese" name="reset">
+    					   <span>reset</span>
+    				    </button>
+    				</div><br>
+    			</form>
+    			<!-- ends page body -->
+    		</section>
+    		<footer>application completes</footer>
+    	</article>
+    </body>
+</html>
